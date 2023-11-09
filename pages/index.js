@@ -3,12 +3,12 @@ import { useState } from "react";
 function Home() {
     return (
         <div>
-            <div>Hello world...</div>
+            <h3>Hello world...</h3>
             <Contador />
         </div>
     )
   }
-
+/*
 function Contador(){
   const [contador, setContador] = useState(1);
   function adicionarContador(){
@@ -24,6 +24,6 @@ function Contador(){
       <button onClick={diminuirContador}>Diminuir</button>
     </div>
   )
-}
+} */
 
 export default Home
